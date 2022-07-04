@@ -1,0 +1,73 @@
+/* @font-face {
+    font-family: 'Martel-Heavy';
+    src:url('fonts/Martel-Heavy.ttf.woff') format('woff'),
+        url('fonts/Martel-Heavy.ttf.svg#Martel-Heavy') format('svg'),
+        url('fonts/Martel-Heavy.ttf.eot'),
+        url('fonts/Martel-Heavy.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;700;800;900&display=swap');
+/* @font-face {
+    font-family: 'Martel-Bold';
+    src: url('fonts/Martel-Bold.ttf') format('truetype');
+} */
+
+body{
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Martel';
+}
+table{
+    width: 375px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-right: 5px;
+    border: none;
+    border-spacing: 0px;
+}
+.head-box{
+    background-color: #00bd9c;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 10px;
+    height: 70px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+}
+.price-box{
+    height: 225px;
+    background-color: #2b2937;
+    border-bottom: 2px solid #414151;
+    font-size: 70px;
+}
+.doller-sym{
+    font-size: 45px;
+}
+.duration{
+    font-size: 20px;
+    color: #535354;
+    height: 50px;
+    font-weight: 900;
+}
+.a{
+    color: white;
+}
+.boxes{
+    height: 67px;
+    font-size: 20px;
+    color: #7c849d;
+    background-color: #2b2937;
+    border-bottom: 2px solid #414151;
+    font-weight: 800;
+
+}
+.foot-box{
+    height: 110px;
+    font-size: 27px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #2b2937;
+    font-weight: 800;
+}
